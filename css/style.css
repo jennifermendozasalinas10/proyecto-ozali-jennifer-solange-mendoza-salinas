@@ -3,15 +3,15 @@
 /* selector universal*/
 *{
   font-family: "Roboro" sans-serif;
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }*/
 
 
 /* selectores de etiqueta */
 
 html{
-	font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body{
@@ -23,28 +23,20 @@ body{
       }
 
 h1{
-	font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue', cursive;
   color: black;
-  text-align: center;
-  font-size: 3rem;
-  box-sizing: border-box;
-  margin: 30px auto
 }
 h2{
-	 font-family: 'Titillium Web', sans-serif;
+   font-family: 'Titillium Web', sans-serif;
    color: black;
-   text-align: center;
-   font-size: 2rem;
-   box-sizing: border-box;
 }
 
 h3{
   font-family: "Roboto" sans-serif;
-  text-align: center;
 }
 
 p{
-	font-family: 'Roboto Flex', sans-serif;
+  font-family: 'Roboto Flex', sans-serif;
     font-size: 1.8rem;
     line-height: 2rem;
     color: black;
@@ -54,9 +46,9 @@ p{
 /*incio de la botonera*/
 
 .botonera{
-	background-color: rgba(90, 90, 180, 0.3);
-	position: sticky;
-	top: 0;
+  background-color: rgba(90, 90, 180, 0.3);
+  position: sticky;
+  top: 0;
   padding: 10px 30px;
   display: flex;
   justify-content: space-between;
@@ -67,7 +59,7 @@ p{
 }
 
     .botonera nav ol{
-	          display: flex;
+            display: flex;
 }  
 
 .botonera ol li{
@@ -75,10 +67,10 @@ p{
     margin-right: 20px;
   }
 
-  .botonera ol li a{
+  .botonera ul li a{
       font-size: 1.8rem;
       text-decoration: none;
-      color: #5B5959;
+      color: ;
           background-image: linear-gradient(currentColor, currentColor);
           background-position: 0% 100%;
           background-repeat: no-repeat;
@@ -114,7 +106,7 @@ p{
       }
 
       .seccion__img--md{
-      	width: 500px;
+        width: 500px;
       }
 
 
@@ -122,12 +114,12 @@ p{
 /*Encabezados BEM*/
 
       .encabezado__box--white{
-      	background-color: white;
-      	text-align: center;
-      	padding: 5px 0;
+        background-color: white;
+        text-align: center;
+        padding: 5px 0;
       }
       .encabezado__img--fluid{
-      	width: 100%;
+        width: 100%;
       }
       .encabezadoo__img--fluid{
         width: 25%;
@@ -135,41 +127,38 @@ p{
       .encabezadooo__img--fluid{
         width: 50%;
       }
-   
-      .nosotros__titulo--xxl{
 
-      }
 
       .nosotros__titulo--xl{
-
+     
       }
       
       .nosotros__titulo--md{
       width: 80%;
-	    height: auto;
-	    padding: 50px;
-	/*margin: 50px 100px;*/
-	    margin: 50px auto;
-	    border: dotted rgba(90, 90, 180, 0.3) 10px; 
-	    overflow: auto;
+      height: auto;
+      padding: 50px;
+  /*margin: 50px 100px;*/
+      margin: 50px auto;
+      border: dotted rgba(90, 90, 180, 0.3) 10px; 
+      overflow: auto;
       }
 
       .nosotros__index--sm{
         width: 15%;
-	    height: auto;
-	    padding: 30px;
-	/*margin: 50px 100px;*/
-	    margin: 10px auto;
-	    border: dotted rgba(90, 90, 180, 0.3) 10px; 
-	    overflow: auto;
+      height: auto;
+      padding: 30px;
+  /*margin: 50px 100px;*/
+      margin: 10px auto;
+      border: dotted rgba(90, 90, 180, 0.3) 10px; 
+      overflow: auto;
       }
       .nosotros__index--md{
-      	width: 90%;
-      	height: auto;
-      	padding:60px ;
-      	margin: 30px auto;
-      	border: 20px dotted rgba(93, 66, 099, 1.0);
-      	overflow: auto;
+        width: 90%;
+        height: auto;
+        padding:60px ;
+        margin: 30px auto;
+        border: 20px dotted rgba(93, 66, 099, 1.0);
+        overflow: auto;
       }
 
 
@@ -177,15 +166,15 @@ p{
 /* clases camelCase */
 
 .text-black{
-	color: black;
+  color: black;
   text-align: center;
 
 }
 
 .text-center{
-	text-align: center;
-	font-size: 3rem;
-	box-sizing: border-box;
+  text-align: center;
+  font-size: 3rem;
+  box-sizing: border-box;
   margin: 30px auto
 }
 
@@ -200,17 +189,17 @@ p{
 }
 
 .text-bold{
-	font-weight: 700;
+  font-weight: 700;
 }
 
 .bg-light{
-	background-color: #EBE7E7;
+  background-color: #EBE7E7;
 }
 .bg-violet{
-	background-color: #BEADC7;
+  background-color: #BEADC7;
 }
 .bg-white{
-	background-color: #D6E9EE;
+  background-color: #D6E9EE;
   width: 30%;
   height: auto;
   padding: 5px;
@@ -223,10 +212,13 @@ p{
   background-color: lightblue;
 }
 
+
+
 /* selectores de ID */
 
+
 #{
-	color: darkviolet;
+  color: darkviolet;
 }
 
 /*flex*/
@@ -240,7 +232,9 @@ p{
   
 }
 
+
 /*productos de hombres*/
+
 
 #productos h1  
 #productos h2{
@@ -285,6 +279,8 @@ p{
 }
 
 /*producto destacado*/
+
+
 #productos .destacados article{
   background-color: #6B49C2;
   display: flex;
@@ -301,9 +297,9 @@ p{
 }
 
 #productos .destacados article h3{
-    color: white;
-    font-size: 3rem;
-    padding-left: 50px;
+    color: black;
+    font-size: 2rem;
+    padding-left: 60px;
     font-family: Roboto, sans-serif;
   }
 
@@ -477,21 +473,6 @@ p{
    }
 }
 
-/*animación para el header*/
-
-@keyframes animationHeader{
-  0%{background-image:url(../img/dep.png)}
-  50%{background-image:url(../img/depo.png)}
-  100%{background-image:url(../img/depor.png)}
-
-}
-
-
-header{
-  height: 60vh;
-  background-size: cover;
-  animation-name: animationHeader;
-  animation-iteration-count: infinite;
-  animation-duration: 5s;
-
+#img{
+  margin: auto auto ;
 }
