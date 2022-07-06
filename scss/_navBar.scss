@@ -1,0 +1,535 @@
+//inicia nav
+.botonera{
+	background-color:$mainColor;
+	 position: sticky;
+     top: 0;
+     padding: 10px 30px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     ol{
+       display: flex;
+     }
+     nav{
+       ol{
+       display: flex
+       }
+     }
+     ol{
+       li{
+       list-style: none;
+       margin-right: 20px;
+       }
+     }
+     
+     ul{
+       li{
+         a{
+          font-size: $fontSize;
+          text-decoration: none;
+          background-image: linear-gradient(currentColor, currentColor);
+          background-position: 0% 100%;
+          background-repeat: no-repeat;
+          background-size: 0% 2px;
+          transition: background-size .3s;
+          
+         }
+       }
+     }
+
+     ol{
+       li{
+          a{
+            &:hover{
+              color: $black;
+              font-weight: 600;
+              /*subrayado*/
+              background-size: 100% 2px;
+             }
+           }
+         }
+      }
+}
+
+
+//Box model
+
+      .pie{
+        padding: 10px 0;
+        text-align: center;
+      }
+      .pie{
+         a{
+          text-decoration: none;
+       }
+      }
+
+      .pie__icon--sm{
+        width: 60px;
+      }
+
+      .pie__titulo--md{
+        font-size: 1rem;
+      }
+
+      .seccion__img--md{
+        width: 500px;
+      }
+
+
+//Encabezados BEM
+
+      .encabezado__box--white{
+        background-color: $white;
+        text-align: center;
+        padding: 5px 0;
+      }
+      .encabezado__img--fluid{
+        width: 100%;
+      }
+      .encabezadoo__img--fluid{
+        width: 25%;
+      }
+      .encabezadooo__img--fluid{
+        width: 50%;
+      }
+      .nosotros__titulo--md{
+      width: 80%;
+      height: auto;
+      padding: 50px;
+      margin: 50px auto;
+      border: dotted $mainColor 10px; 
+      overflow: auto;
+      }
+
+      .nosotros__index--sm{
+      width: 15%;
+      height: auto;
+      padding: 30px;
+      margin: 10px auto;
+      border: dotted $mainColor 10px; 
+      overflow: auto;
+      }
+      .nosotros__index--md{
+        width: 90%;
+        height: auto;
+        padding:60px ;
+        margin: 30px auto;
+        border: 20px dotted $secondaryColor;
+        overflow: auto;
+      }
+
+
+      //clases camelCase 
+
+.text-black{
+  color: $black;
+  text-align: center;
+
+}
+
+.text-center{
+  text-align: center;
+  font-size: $fontMd;
+  box-sizing: border-box;
+  margin: 30px auto
+}
+
+.text-right{
+  text-align: right;
+  font-size: $fontMd;
+  box-sizing: border-box;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-bold{
+  font-weight: 700;
+}
+
+.bg-light{
+  background-color:$white;
+}
+.bg-violet{
+  background-color: $keyColor;
+}
+.bg-white{
+  background-color:$white;
+  width: 30%;
+  height: auto;
+  padding: 5px;
+  margin: 20px auto;
+  border: dotted $mainColor 5px; 
+  overflow: auto;
+}
+ .bg-blue{
+  background-color: $white;
+}
+
+//productos
+
+#productos h1  
+#productos h2{
+  text-transform: uppercase;
+  font-size: $fontMd;
+  text-align: center;
+  padding: 20px 0;
+  background-color: $keyColor;
+  font-family: 'Roboto Flex', sans-serif; 
+  margin: 20px 0;
+}
+
+#productos{
+	.galeria{
+	       margin: 20px;
+           display: flex;
+           justify-content: space-evenly;
+
+	}
+} 
+ 
+
+    #productos{
+         .galeria{
+            figure{
+                text-align: center;
+                margin: 0 20px;
+                width: 30%;
+             }
+         }
+    }  
+      
+
+    #productos{
+        .galeria{
+           figure{
+                img{
+                   border-top-left-radius: 5px;
+                   border-top-right-radius: 5px;
+                   width: 100%;
+                }
+           }
+        }
+     }   
+
+
+       #productos{
+           .galeria{
+              figure{
+                figcaption{
+                    font-size: $fontFig;
+                    color: $keyColor;
+                    padding: 10px 0 ;
+                    background-color: $white;
+                }
+              }
+           }
+       }   
+  
+
+      #productos{
+          .galeria{
+                  p{
+                .price{
+                  color:$grey ;
+                  padding-bottom: 10px;
+                  background-color:$white ;
+                }
+           }
+      }
+  }  
+  
+
+
+//producto destacado
+
+
+#productos{
+	.destacados{
+	      article{
+              background-color: $violeta;
+              display: flex;
+              align-items: center;
+	     }
+	}
+}  
+
+
+
+  #productos{
+         .destacados{
+              article{
+                     p{
+                      font-size: fontMdd;
+                      line-height: $fontFig;
+                      padding: 50px;
+                      margin: 20px auto;
+                      color: $white;
+                    }
+                 }   
+              }
+} 
+ 
+
+#productos{
+	.destacados{
+	       article{
+	              h3{
+	                  color: $black;
+                      font-size: $fontSave;
+                      padding-left: 60px;
+                      font-family:$mainFont;
+	              }
+	       }
+	}
+}   
+
+  
+
+  .btnXl{
+  width:30%;
+  height: 30px;
+  background-color: $white;
+  color: $violet2;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 50px;
+  font-size: $fontSave;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+//tienda dep
+
+.secondNav{
+  background-color: $white;
+  color:$seconNav ;
+  padding: 5px ;
+  font-size: $fontGrid;
+  line-height: $fontHei;
+}
+   .secondNav img{
+      width: 80%;
+   }
+/*definimos el grid layout - 1 col y row auto*/
+
+   .contenedor{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "nav"
+    "header" 
+    "productos" 
+    "filtros" 
+    "aside" 
+    "pie" 
+    
+}
+
+.sectionNosotros{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+} 
+/*nombres de las areas del layout*/
+
+ #mainNav{
+  grid-area: nav;
+ }
+
+ #header{
+  grid-area: header;
+ }
+
+ #filtros{
+  grid-area: filtros;
+ }
+
+ #productos{
+  grid-area: productos;
+ }
+
+ #aside{
+  grid-area: aside;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+ }
+
+ #footer{
+  grid-area: pie;
+ }
+ 
+
+ /*media queries*/
+
+/* min-width: 768 definicion 2 cols y 5 rows*/
+
+@media (min-width:  768px){
+  .contenedor{
+      grid-template-columns: 30vw 70vw;
+      grid-template-rows: repeat(5, auto);
+      grid-template-areas: 
+      "nav nav" 
+      "header header" 
+      "filtros productos" 
+      "aside aside" 
+      "pie pie";
+  }
+
+
+
+//los productos van apilados
+
+#productos{
+	.galeria{
+	     display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: flex-start;
+	}
+} 
+
+
+
+
+//reducimos el width de las figure al 90%
+
+
+
+  #productos{
+        .galeria{
+             figure{
+                  width: 90%;  
+
+             }
+        }
+  } 
+  
+
+  #aside{
+   flex-direction: row;
+   justify-content:space-evenly ;
+  }
+
+ }
+
+
+
+
+//min-width: 1024 defino 3 cols con medidas vw y 4row
+
+
+
+@media (min-width: 1024px){
+     .contenedor{
+         grid-template-columns: 20vw 70vw 10vw;
+         grid-template-rows: repeat(4, auto);
+         grid-template-areas:
+         "nav nav nav" 
+         "header header header" 
+         "filtros productos aside" 
+         "pie pie pie";
+     }
+
+
+
+
+//cambio la direccion del aside a columna, flota a la derecha
+
+
+
+
+#aside{
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: $asideColor;
+}
+
+/*achico el tamaña de las img del aside al 70%*/
+#aside img{
+
+   width: 70%;
+}
+
+
+
+  #productos{
+       .galeria{
+             flex-direction: row;
+             justify-content: space-around;
+       }
+  }
+
+
+
+//ponemos al 100% el width de los produstos
+
+
+
+#productos{
+	.galeria{
+	   figure{
+	       width: 100%;
+	   }
+	}
+}  
+
+
+
+
+//cambio la dirección de la botonera a row
+
+
+.botonera{
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+//sacamos el margin bottom 0 al logo
+ .botonera{
+  img{
+    margin-bottom:0;
+  }
+} 
+
+//main-width:  1200px cambio la dirección de la galeria de productos a row
+@media (min-width: 1200px){
+ 
+  #productos{
+      .galeria{
+            flex-direction: row;
+            justify-content: space-around;
+      }
+  }
+
+
+
+//achico el width de los productos al 30%
+
+
+   #productos{
+      .galeria{
+          figure{
+             width: 30%;
+          }
+      }
+   }  
+}      
+
+#img{
+  margin: auto auto ;
+ }
+}
+
+
+

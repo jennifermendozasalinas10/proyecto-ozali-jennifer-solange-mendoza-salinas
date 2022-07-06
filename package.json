@@ -1,0 +1,25 @@
+{
+  "name": "proyecto-ozali-jennifer-mendoza-salinas---copia---copia",
+  "version": "1.0.0",
+  "description": "proyecto de venta de indumentaria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm     run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennifermendozasalinas10/repositorio-para-desafio-creando-repositorio-en-github-con-animaciones.git"
+  },
+  "author": "jenifer mendoza salinas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jennifermendozasalinas10/repositorio-para-desafio-creando-repositorio-en-github-con-animaciones/issues"
+  },
+  "homepage": "https://github.com/jennifermendozasalinas10/repositorio-para-desafio-creando-repositorio-en-github-con-animaciones#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

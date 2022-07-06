@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Flex:opsz,wght@8..144,500&family=Titillium+Web:wght@600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Pacifico&display=swap');
 /* selector universal*/
 *{
   font-family: "Roboro" sans-serif;
@@ -36,12 +37,19 @@ h3{
 }
 
 p{
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: 'Amatic SC', cursive;
     font-size: 1.8rem;
     line-height: 2rem;
     color: black;
     font-weight: 400;
 }
+
+header{
+  width: auto;
+  width: 98vw;
+  margin: auto;
+}
+
 
 /*incio de la botonera*/
 
@@ -346,7 +354,12 @@ p{
     "pie" 
     
 }
- 
+
+.sectionNosotros{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+} 
 /*nombres de las areas del layout*/
 
  #mainNav{
@@ -392,6 +405,27 @@ p{
       "aside aside" 
       "pie pie";
   }
+
+ /* @media (min-width: 10px) and (max-width 773px){
+  .destacados article p a{
+    width:30%;
+  height: 30px;
+  background-color: white;
+  color: darkviolet;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 50px;
+  font-size: 2rem;
+  /*display flex*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  }*/
+
+
+
 /*los productos van apilados*/
 #productos .galeria{
   display: flex;
