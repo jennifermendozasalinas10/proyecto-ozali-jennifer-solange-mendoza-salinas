@@ -1,0 +1,52 @@
+.discos{
+    @include flexBox (row, wrap, space-around);
+}
+
+.tituloDiscos{
+    margin: auto;
+    color: rgb(113, 26, 153);
+}
+
+.caratulaDiscos{
+    width: 100%;
+    margin: 5px;
+    @include flexBox (column, wrap, space-around);
+    object-fit: cover;
+}
+
+.listaDiscos{
+    @include flexBox (row,wrap,space-around);
+    margin: 1px;
+}
+
+.anchDiscos{
+        color:rgb(85, 83, 99);
+        list-style: none;
+        text-decoration: none;
+        font-size: 20px;
+}
+.anchDiscos:hover{
+    text-decoration: underline;
+}
+
+.botonesDiscos{
+    width: 25%;
+    margin: auto;
+}
+
+.sencillos{
+    @include flexBox (column, wrap, space-around);
+}
+
+.tituloSencillos{
+    margin: auto;
+    color: rgb(195, 206, 189);
+}
+
+.caratulaSencillos
+{
+    width: 100%;
+    margin: 5px;
+    @include flexBox (row, wrap, space-around);
+    object-fit: cover;
+}
